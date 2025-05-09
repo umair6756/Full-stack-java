@@ -100,5 +100,18 @@
 			<artifactId>javax.json</artifactId>
 			<version>1.0.4</version>
 		</dependency>
+		<dependency>
+                        <groupId>javax.faces</groupId>
+                        <artifactId>javax.faces-api</artifactId>
+                        <version>2.2</version> <!-- Or 2.3 if compatible -->
+                        <scope>provided</scope>
+                </dependency>
+		<dependency>
+                        <groupId>org.glassfish</groupId>
+                        <artifactId>javax.faces</artifactId>
+                        <version>2.2.20</version>
+                </dependency>
+
+
 	</dependencies>
 </project>
